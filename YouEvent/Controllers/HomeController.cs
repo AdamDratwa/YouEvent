@@ -15,7 +15,7 @@ namespace YouEvent.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "OK";
+            ViewBag.Message = "OK2";
 
             return View();
         }
