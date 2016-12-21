@@ -15,7 +15,7 @@ namespace YouEvent.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "OK";
 
             return View();
         }
