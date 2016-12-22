@@ -10,14 +10,14 @@ export default class TableExampleSimple extends React.Component {
                     <TableRow>
                         <TableHeaderColumn>ID</TableHeaderColumn>
                         <TableHeaderColumn>Name</TableHeaderColumn>
-                        <TableHeaderColumn>Status</TableHeaderColumn>
+                        <TableHeaderColumn>Some</TableHeaderColumn>
                     </TableRow>
                 </TableHeader>
                 <TableBody>
                     <TableRow>
                         <TableRowColumn>1</TableRowColumn>
-                        <TableRowColumn>John Smith</TableRowColumn>
-                        <TableRowColumn>Employed</TableRowColumn>
+                        <TableRowColumn>Adam Dratwa</TableRowColumn>
+                        <TableRowColumn>Dratwa</TableRowColumn>
                     </TableRow>
                     <TableRow>
                         <TableRowColumn>2</TableRowColumn>
