@@ -1,13 +1,18 @@
-﻿var CommentBox = React.createClass({
-    render: function() {
-        return (
-          <div className="commentBox">
-            Hello, world! I am a CommentBox.
-          </div>
-      );
+﻿import * as React from 'react';
+import * as ReactDOM from 'react-dom'
+import getMuiTheme from "material-ui/styles/getMuiTheme";
+import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import TableExampleSimple from "./index";
+
+const muiTheme = getMuiTheme({
+    palette: {
+        primary1Color: "#476471"
     }
 });
+
 ReactDOM.render(
-  <CommentBox />,
+  <MuiThemeProvider muiTheme={muiTheme}>
+  <TableExampleSimple />
+  </MuiThemeProvider>,
   document.getElementById('content')
 );
